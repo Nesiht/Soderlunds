@@ -12,5 +12,7 @@ export const Footer = () => {
             <StyledParagraph>Org.nr: 559246-3615</StyledParagraph>
             <StyledLogo src="../assets/img/Logo_ligg_small_webp.webp" alt="logo" />
       </StyledContiner>
+
+      <StyledItalic>Plunta.dev</StyledItalic>
     </StyledBackground>
   )}

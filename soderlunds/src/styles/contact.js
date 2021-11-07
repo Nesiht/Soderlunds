@@ -16,6 +16,18 @@ export const StyledHeading = styled.h2`
   font-style: italic;
   `
 
+export const StyledContiner = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 900px;
+  }
+  `
+
 export const StyledContactCard = styled.article`
   width: 300px;
   height: 170px;
