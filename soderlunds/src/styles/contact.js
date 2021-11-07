@@ -46,7 +46,6 @@ export const StyledText = styled.p`
   font-size: 1.2rem;
   margin: 0.5rem;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 800;
   `
 
 export const StyledImg = styled.img`
