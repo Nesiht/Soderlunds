@@ -9,13 +9,14 @@ export const StyledBackground = styled.div`
   align-items: center;
 
   @media (min-width: 1024px) {
-    height: 30vh;
+    // height: 30vh;
   }
   `
 
 export const StyledContiner = styled.div`
   display: block;
   width: 90vw;
+  margin: 15px;
   `
 
 export const StyledParagraph = styled.p`
