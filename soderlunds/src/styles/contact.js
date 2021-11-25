@@ -32,7 +32,8 @@ export const StyledContactCard = styled.article`
   height: 170px;
   margin: 15px;
   padding: 1rem;
-  background-color: ${props => props.Front ? "#009AC4" : "#fff"};
+  background-color: ${props => props.Front ? "#38355a" : "#fff"};
+  // background-image: linear-gradient(180deg,#38355a,#201c33);
   border-radius: 4px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   display: flex;
