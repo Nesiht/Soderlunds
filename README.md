@@ -4,11 +4,11 @@ Simple and fast landing page for Söderlunds plattsättning AB. Containing basic
 
 ## Tech stack
 
-	:heavy_check_mark: React.
-	:heavy_check_mark: Styled components.
-	:heavy_check_mark: Instagram feed.
-	:heavy_check_mark: Responsive.
-	:heavy_check_mark: Netlify.
+:heavy_check_mark: React.
+:heavy_check_mark: Styled components.
+:heavy_check_mark: Instagram feed.
+:heavy_check_mark: Responsive.
+:heavy_check_mark: Netlify.
 
 ## View it live
 
