@@ -13,7 +13,6 @@ export const StyledHeading = styled.h2`
   margin: 0.5rem;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
-  font-style: italic;
   `
 
 export const StyledContiner = styled.div`
@@ -24,7 +23,7 @@ export const StyledContiner = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 900px;
+    width: 425px;
   }
   `
 
@@ -40,16 +39,31 @@ export const StyledContactCard = styled.article`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (min-width: 1024px) {
+    width: 150px;
+    height: 80px;
+  }
   `
 
 export const StyledText = styled.p`
   font-size: 1.2rem;
   margin: 0.5rem;
   font-family: 'Source Sans Pro', sans-serif;
+
+  @media (min-width: 1024px) {
+    font-size: 0.8rem;
+    line-height: 0.6;
+  }
   `
 
 export const StyledImg = styled.img`
   width: 100px;
   height: 100px;
   margin: 0.5rem;
+
+  @media (min-width: 1024px) {
+    width: 50px;
+    height: 50px;
+  }
   `
