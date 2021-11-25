@@ -1,6 +1,7 @@
 import React from 'react'
 import { StyledBackground, StyledContiner, StyledParagraph, StyledItalic, StyledLogo } from '../styles/footer'
 
+
 export const Footer = () => {
   return (
     <StyledBackground>
