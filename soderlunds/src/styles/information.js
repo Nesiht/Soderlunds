@@ -1,13 +1,11 @@
 import styled from "styled-components"
 
 export const StyledBackground = styled.section`
-  background-image: linear-gradient(180deg,#38355a,#201c33);
+  background-image: linear-gradient(to right bottom, #12acae, #00a0bf, #0092c8, #4880c6, #766bb5);
   padding-top: 1rem;
-  // height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  // linear-gradient(180deg,#38355a,#201c33)
 `
 
 export const StyledCard = styled.article`

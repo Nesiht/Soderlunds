@@ -1,9 +1,7 @@
 import styled from 'styled-components'
 
 export const StyledBackground = styled.div`
-  // background-image: linear-gradient(to right bottom, #12acae, #00a0bf, #0092c8, #4880c6, #766bb5);
-  // background-image: linear-gradient(180deg,#38355a,#201c33);
-  background-color: #38355a;
+  background-image: linear-gradient(to right bottom, #12acae, #00a0bf, #0092c8, #4880c6, #766bb5);
   width: 100vw;
   display: flex;
   flex-direction: column;
