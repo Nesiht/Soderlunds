@@ -9,14 +9,12 @@ export const Contact = () => {
     <StyledBackground>
       <StyledHeading>Kontakta oss</StyledHeading>
       <StyledContiner>
-        <Fade bottom>
-          <ContactCardFront image="../assets/img/045-call.png" alt="Phone" />
-          <ContactCardBack title2="070-756 06 45" />
-          <ContactCardFront image="../assets/img/043-email-1.png" alt="Letter" />
-          <ContactCardBack title2="Dennis@soderlunds.se" />
-          <ContactCardFront image="../assets/img/040-profile.png" alt="Contact card" />
-          <ContactCardBack title="Jaktstigen 13" title2="762 61 Rimbo" title3="Org.nr: 559246-3615" />
-        </Fade>
+          <ContactCardFront order="-1" image="../assets/img/045-call.png" alt="Phone" />
+          <ContactCardBack  title2="070-756 06 45" />
+          <ContactCardFront order="-2" image="../assets/img/043-email-1.png" alt="Letter" />
+          <ContactCardBack  title2="Dennis@soderlunds.se" />
+          <ContactCardFront order="-3" image="../assets/img/040-profile.png" alt="Contact card" />
+          <ContactCardBack  title="Jaktstigen 13" title2="762 61 Rimbo" title3="Org.nr: 559246-3615" />
       </StyledContiner>
     </StyledBackground>
   )

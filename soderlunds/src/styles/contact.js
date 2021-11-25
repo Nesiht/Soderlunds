@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const StyledBackground = styled.div`
   background-color: #f5f5f5;
-  padding-top: 1rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,11 +23,15 @@ export const StyledContiner = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 425px;
+    width: 640px;
   }
   `
 
 export const StyledContactCard = styled.article`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 300px;
   height: 170px;
   margin: 15px;
@@ -35,14 +39,12 @@ export const StyledContactCard = styled.article`
   background-color: ${props => props.Front ? "#009AC4" : "#fff"};
   border-radius: 4px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
 
   @media (min-width: 1024px) {
     width: 150px;
     height: 80px;
+    order: ${props => props.order};
   }
   `
 
