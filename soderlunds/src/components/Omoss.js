@@ -6,18 +6,7 @@ export const Omoss = () => {
     <StyledCard>
       <StyledHeading>Om oss</StyledHeading>
       <StyledParagraph>
-        Vi er en gruppe av studenter som har valgt å utvikle en nettside som
-        kan hjelpe studenter i Oslo kommune med å finne riktig utstyr.
-        Vi er en gruppe av studenter som har valgt å utvikle en nettside som
-        kan hjelpe studenter i Oslo kommune med å finne riktig utstyr.
-        Vi er en gruppe av studenter som har valgt å utvikle en nettside som
-        kan hjelpe studenter i Oslo kommune med å finne riktig utstyr.
-        Vi er en gruppe av studenter som har valgt å utvikle en nettside som
-        kan hjelpe studenter i Oslo kommune med å finne riktig utstyr.
-        Vi er en gruppe av studenter som har valgt å utvikle en nettside som
-        kan hjelpe studenter i Oslo kommune med å finne riktig utstyr.
-        Vi er en gruppe av studenter som har valgt å utvikle en nettside som
-        kan hjelpe studenter i Oslo kommune med å finne riktig utstyr.
+        Dags att renovera badrummet? Låt oss vara med och räkna. Vi renoverar ett stort antal badrum och tvättstugor varje år och hos oss får du ett fast pris, en tydlig och fastställd tidplan och en engagerad projektledare som är med dig hela vägen från start till mål. Kontakta Badrumsrenovering Stockholm, Bygg & Badrumspartner & Sverige AB för en fri rådgivning.
       </StyledParagraph>
     </StyledCard>
   )
