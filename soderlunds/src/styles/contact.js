@@ -32,8 +32,8 @@ export const StyledContactCard = styled.article`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 300px;
-  height: 170px;
+  width: 150px;
+  height: 85px;
   margin: 15px;
   padding: 1rem;
   background-color: ${props => props.Front ? "#009AC4" : "#fff"};
@@ -49,23 +49,27 @@ export const StyledContactCard = styled.article`
   `
 
 export const StyledText = styled.p`
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 0.5rem;
   font-family: 'Source Sans Pro', sans-serif;
+  padding: 0;
+  margin: 0;
 
   @media (min-width: 1024px) {
     font-size: 0.8rem;
     line-height: 0.6;
+    padding: .4rem;
+    font-size: 1rem;
   }
   `
 
 export const StyledImg = styled.img`
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   margin: 0.5rem;
 
-  @media (min-width: 1024px) {
-    width: 50px;
-    height: 50px;
-  }
+  // @media (min-width: 1024px) {
+  //   width: 50px;
+  //   height: 50px;
+  // }
   `

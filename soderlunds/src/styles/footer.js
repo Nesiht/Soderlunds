@@ -20,7 +20,7 @@ export const StyledContiner = styled.div`
   `
 
 export const StyledParagraph = styled.p`
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: black;
   font-weight: 600;
   line-height: 0.6;
@@ -31,7 +31,7 @@ export const StyledParagraph = styled.p`
   `
 
 export const StyledItalic = styled.p`
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: black;
   font-style: italic;
   font-weight: 400;

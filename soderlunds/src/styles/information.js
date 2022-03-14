@@ -17,7 +17,7 @@ export const StyledCard = styled.article`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80vw;
+  width: auto;
 `
 export const StyledHeading = styled.h2`
   font-size: 1.5rem;
@@ -33,4 +33,9 @@ export const StyledParagraph = styled.p`
   font-weight: 400;
   color: #000;
   line-height: 1.6;
+  `
+
+  export const StyledContainer = styled.div`
+  display: flex;
+  flex-direction: row;
   `
