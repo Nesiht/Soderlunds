@@ -17,7 +17,11 @@ export const StyledCard = styled.article`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: auto;
+  width: 80vw;
+
+    @media (min-width: 1024px) {
+    width: 33vw;
+  }
 `
 export const StyledHeading = styled.h2`
   font-size: 1.5rem;
@@ -35,7 +39,7 @@ export const StyledParagraph = styled.p`
   line-height: 1.6;
   `
 
-  export const StyledContainer = styled.div`
+export const StyledContainer = styled.div`
   display: flex;
   flex-direction: row;
   `
